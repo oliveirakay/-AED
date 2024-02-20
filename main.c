@@ -40,6 +40,10 @@ int main(void) {
 
     string_print(reversa);
 
+    printf("\n-------------------\n TESTE DE APPEND \n");
+    string_append(str, reversa);
+    string_print(str);
+    
 
    
     string_destroy(str);
